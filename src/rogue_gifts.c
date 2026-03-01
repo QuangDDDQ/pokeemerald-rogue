@@ -701,15 +701,15 @@ static u32 SelectNextMoveIndex(struct CompressedDynamicData* compressedData, u16
 {
     // Lần gọi đầu tiên -> trả về 29
     if (compressedData->move1 == 0)
-        return 18;
+        return 3;
 
     // Lần gọi thứ hai -> trả về 15
     if (compressedData->move2 == 0)
-        return 26;
+        return 21;
 
     // Lần gọi thứ ba -> trả về 127
     if (compressedData->move3 == 0)
-        return 43;
+        return 52;
 
     // Không còn move nào để chọn
     return 0;
@@ -719,7 +719,7 @@ static u32 SelectNextMoveIndex(struct CompressedDynamicData* compressedData, u16
 static u32 SelectNextAbilityIndex(struct CompressedDynamicData* compressedData, u16 species)
 {
     // Trả về ability số 30 (1-based index trong sDynamicCustomMonAbilities[])
-    return 47;
+    return 9;
 }
 
 u32 RogueGift_CreateDynamicMonId(u8 rarity, u16 species)
