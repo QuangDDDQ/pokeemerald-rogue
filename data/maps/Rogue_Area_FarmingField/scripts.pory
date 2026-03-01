@@ -87,7 +87,7 @@ script Rogue_Area_FarmingField_MakePotions
                     if(var(VAR_RESULT) == YES)
                     {
                         removeitem(ITEM_ORAN_BERRY, 1)
-                        additem(ITEM_MASTER_BALL, 10)
+                        additem(ITEM_MASTER_BALL, 1)
                     }
                 }
                 else
@@ -105,7 +105,7 @@ script Rogue_Area_FarmingField_MakePotions
                     if(var(VAR_RESULT) == YES)
                     {
                         removeitem(ITEM_ORAN_BERRY, 1)
-                        additem(ITEM_PP_MAX, 100)
+                        additem(ITEM_ROGUE_BALL, 1)
                     }
                 }
                 else
@@ -123,7 +123,7 @@ script Rogue_Area_FarmingField_MakePotions
                     if(var(VAR_RESULT) == YES)
                     {
                         removeitem(ITEM_ORAN_BERRY, 1)
-                        additem(ITEM_HP_UP, 100)
+                        additem(ITEM_HP_UP, 1)
                     }
                 }
                 else
@@ -141,7 +141,7 @@ script Rogue_Area_FarmingField_MakePotions
                     if(var(VAR_RESULT) == YES)
                     {
                         removeitem(ITEM_ORAN_BERRY, 1)
-                        additem(ITEM_PROTEIN, 100)
+                        additem(ITEM_PROTEIN, 1)
                     }
                 }
                 else
