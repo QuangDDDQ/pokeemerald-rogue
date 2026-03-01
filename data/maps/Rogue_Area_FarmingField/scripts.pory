@@ -1,4 +1,4 @@
-const FLAG_HIDE_BERRIES0 = FLAG_TEMP_1
+0const FLAG_HIDE_BERRIES0 = FLAG_TEMP_1
 const FLAG_HIDE_BERRIES1 = FLAG_TEMP_2
 const FLAG_HIDE_BERRIES2 = FLAG_TEMP_3
 const FLAG_HIDE_CAULDREN = FLAG_TEMP_4
@@ -86,8 +86,8 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_ORAN_BERRY, 2)
-                        additem(ITEM_POTION, 1)
+                        removeitem(ITEM_POKE_BALL, 1)
+                        additem(ITEM_MASTER_BALL, 10)
                     }
                 }
                 else
@@ -104,8 +104,8 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Super Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_ORAN_BERRY, 5)
-                        additem(ITEM_SUPER_POTION, 1)
+                        removeitem(ITEM_POKE_BALL, 1)
+                        additem(ITEM_PP_MAX, 100)
                     }
                 }
                 else
@@ -122,8 +122,8 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Hyper Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_ORAN_BERRY, 20)
-                        additem(ITEM_HYPER_POTION, 1)
+                        removeitem(ITEM_POKE_BALL, 1)
+                        additem(ITEM_HP_UP, 100)
                     }
                 }
                 else
@@ -140,8 +140,8 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Max Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_ORAN_BERRY, 40)
-                        additem(ITEM_MAX_POTION, 1)
+                        removeitem(ITEM_POKE_BALL, 1)
+                        additem(ITEM_PROTEIN, 100)
                     }
                 }
                 else
