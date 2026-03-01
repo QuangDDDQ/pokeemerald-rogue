@@ -86,7 +86,7 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_POKE_BALL, 1)
+                        removeitem(ITEM_ORAN_BERRY, 1)
                         additem(ITEM_MASTER_BALL, 10)
                     }
                 }
@@ -104,7 +104,7 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Super Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_POKE_BALL, 1)
+                        removeitem(ITEM_ORAN_BERRY, 1)
                         additem(ITEM_PP_MAX, 100)
                     }
                 }
@@ -122,7 +122,7 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Hyper Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_POKE_BALL, 1)
+                        removeitem(ITEM_ORAN_BERRY, 1)
                         additem(ITEM_HP_UP, 100)
                     }
                 }
@@ -140,7 +140,7 @@ script Rogue_Area_FarmingField_MakePotions
                     msgbox(format("Would you like to brew a Max Potion?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
-                        removeitem(ITEM_POKE_BALL, 1)
+                        removeitem(ITEM_ORAN_BERRY, 1)
                         additem(ITEM_PROTEIN, 100)
                     }
                 }
